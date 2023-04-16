@@ -3,7 +3,7 @@ import bencode
 
 # Check if the file name of the torrent file is given as a command line argument
 if len(sys.argv) < 2:
-    print('Usage: python add_trackers.py <torrent_file>')
+    print('Usage: python addtracker2torrent.py <torrent_file>')
     sys.exit(1)
 
 # Get the file name of the torrent file from the command line arguments
